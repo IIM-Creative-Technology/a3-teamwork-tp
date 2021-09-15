@@ -1,0 +1,13 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div><span>name: </span>{{hero.name}}</div>
+  <div><span>superpower: </span>{{hero.superpower}}</div>
+  <div>
+     <img src="https://www.francetvinfo.fr/pictures/zgCXP_mUsRSg3fbykLQyFkhoGfA/0x0:1239x699/1320x743/filters:format(webp)/2019/12/23/phpORxWfM.jpg" alt="cute cat eunji"/>
+  </div>
+
+
+  <button (click)="goBack()">go back</button>
+  <!--<button (click)="save()">save</button>-->
+</div>
